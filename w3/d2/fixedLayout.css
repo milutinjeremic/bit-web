@@ -1,6 +1,7 @@
 
 body {
     width: 90%;
+    min-width: 500px;;
     margin: 0 auto;
 }
 div {
@@ -18,6 +19,7 @@ img {
 article {
     float: left;
     width: 45%;
+    min-width: 200px;
     margin: 10px;
 }
 
