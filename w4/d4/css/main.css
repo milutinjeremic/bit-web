@@ -1,3 +1,49 @@
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  #mainNav .navbar-brand {
+    color: white; }
+  #mainNav .navbar-nav {
+    margin-top: 1rem;
+    letter-spacing: 0.0625rem; }
+    #mainNav .navbar-nav li.nav-item a.nav-link {
+      color: white; }
+      #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+        color: grey; }
+      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+        color: white; }
+      #mainNav .navbar-nav li.nav-item a.nav-link.active {
+        color: grey; }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s; }
+    #mainNav .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: font-size 0.3s;
+      -moz-transition: font-size 0.3s;
+      transition: font-size 0.3s; }
+    #mainNav .navbar-nav {
+      margin-top: 0; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: white;
+      background: grey; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: white;
+        background: grey; }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em; } }
 .container {
   padding: 0px; }
 
@@ -9,4 +55,4 @@ header {
   background-color: #18bc9c;
   color: white; }
 
-/*# sourceMappingURL=projekat_3.css.map */
+/*# sourceMappingURL=main.css.map */
